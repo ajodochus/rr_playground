@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="11.92s"
+		durationms="11916"
+		type="root"
+		rid="2737d8d8eebbc7d2"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Administrator"
+		rxversion="10.1.5.0"
+		host="BWW10"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-DE"
+		screenresolution="1918x1048"
+		timestamp="11.10.2023 15:57:11"
+		timestampiso="2023-10-11T13:57:11"
+		endtime="11.10.2023 15:57:23"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="1s"
+			durationms="1004"
+			type="test-suite"
+			rid="2b87ef1d1e461a8"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="playground"
+			headertext="playground"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Failed"
+				duration="908ms"
+				durationms="908"
+				type="test-case"
+				rid="1f45ca8e93a22cee"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TestCase"
+				testcontainerid="57f45815-51f0-4c0c-9f6c-0ebc3a971e0d"
+				headertext="TestCase"
+				displayName="TestCase"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Failed"
+					duration="737ms"
+					durationms="737"
+					type="test-module"
+					rid="240968928c23127a"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Recording1"
+					displayName="Recording1"
+					moduleid="e33a4eff-42d9-464e-886c-c8060631b8ce"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<errormessage>
+						Ein Teil des Pfades &quot;D:\projects\playground\playground\bin\Debug\ocr\netcoreapp3.0&quot; konnte nicht gefunden werden.
+					</errormessage>
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.263"
+						timeRelativeToTestModuleStartTime="00:00.101"
+						timeWallClock="15:57:23"
+						time="00:00.263"
+						level="Info"
+						category="User"
+						errimg="images_playgrou_58a5cdb0\playgrou_58a5cdb0_8b68e0f4_trace.jpg"
+						errthumb="images_playgrou_58a5cdb0\playgrou_58a5cdb0_8b68e0f4_trace_thumb.jpg">
+						<message>
+							exec dir: D:\projects\playground\playground\bin\Debug
+						</message>
+						<metainfo
+							codefile="D:\projects\playground\playground\Recording1.UserCode.cs"
+							codeline="49"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.583"
+						timeRelativeToTestModuleStartTime="00:00.421"
+						timeWallClock="15:57:23"
+						time="00:00.583"
+						level="Error"
+						category="Module"
+						errimg="images_playgrou_58a5cdb0\playgrou_58a5cdb0_099968a3_trace.jpg"
+						errthumb="images_playgrou_58a5cdb0\playgrou_58a5cdb0_099968a3_trace_thumb.jpg">
+						<message>
+							Ein Teil des Pfades &quot;D:\projects\playground\playground\bin\Debug\ocr\netcoreapp3.0&quot; konnte nicht gefunden werden.
+						</message>
+						<metainfo
+							stacktrace="   bei System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   bei System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   bei System.IO.Directory.Delete(String path, Boolean recursive)
+   bei playground.Recording1.Init() in D:\projects\playground\playground\Recording1.UserCode.cs:Zeile 51.
+   bei playground.Recording1.Ranorex.Core.Testing.ITestModule.Run() in D:\projects\playground\playground\Recording1.cs:Zeile 80.
+   bei Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+							codefile="D:\projects\playground\playground\Recording1.UserCode.cs"
+							codeline="51"
+							loglvl="Error">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

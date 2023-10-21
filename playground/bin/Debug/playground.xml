@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>playground</name>
+    </assembly>
+    <members>
+        <member name="T:playground.playgroundRepository">
+            <summary>
+            The class representing the playgroundRepository element repository.
+            </summary>
+        </member>
+        <member name="P:playground.playgroundRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the playgroundRepository element repository.
+            </summary>
+        </member>
+        <member name="M:playground.playgroundRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:playground.playgroundRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:playground.playgroundRepository.Form1">
+            <summary>
+            The Form1 folder.
+            </summary>
+        </member>
+        <member name="T:playground.playgroundRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:playground.playgroundRepositoryFolders.Form1AppFolder">
+            <summary>
+            The Form1AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:playground.playgroundRepositoryFolders.Form1AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Form1  folder.
+            </summary>
+        </member>
+        <member name="P:playground.playgroundRepositoryFolders.Form1AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:playground.playgroundRepositoryFolders.Form1AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:playground.playgroundRepositoryFolders.Form1AppFolder.pic_box_hello_world">
+            <summary>
+            The pic_box_hello_world item.
+            </summary>
+        </member>
+        <member name="P:playground.playgroundRepositoryFolders.Form1AppFolder.pic_box_hello_worldInfo">
+            <summary>
+            The pic_box_hello_world item info.
+            </summary>
+        </member>
+        <member name="P:playground.playgroundRepositoryFolders.Form1AppFolder.pic_box_masterservice">
+            <summary>
+            The pic_box_masterservice item.
+            </summary>
+        </member>
+        <member name="P:playground.playgroundRepositoryFolders.Form1AppFolder.pic_box_masterserviceInfo">
+            <summary>
+            The pic_box_masterservice item info.
+            </summary>
+        </member>
+        <member name="P:playground.playgroundRepositoryFolders.Form1AppFolder.textbox">
+            <summary>
+            The textbox item.
+            </summary>
+        </member>
+        <member name="P:playground.playgroundRepositoryFolders.Form1AppFolder.textboxInfo">
+            <summary>
+            The textbox item info.
+            </summary>
+        </member>
+        <member name="T:playground.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:playground.Recording1.repo">
+            <summary>
+            Holds an instance of the playgroundRepository repository.
+            </summary>
+        </member>
+        <member name="M:playground.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:playground.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:playground.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:playground.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:playground.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:playground.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

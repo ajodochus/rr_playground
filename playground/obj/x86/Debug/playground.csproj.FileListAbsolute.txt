@@ -1,0 +1,15 @@
+D:\projects\playground\playground\obj\x86\Debug\playground.csprojAssemblyReference.cache
+D:\projects\playground\playground\bin\Debug\playground.rxtmg
+D:\projects\playground\playground\bin\Debug\playground.rxtst
+D:\projects\playground\playground\bin\Debug\playground.exe.config
+D:\projects\playground\playground\bin\Debug\playground.xml
+D:\projects\playground\playground\bin\Debug\playground.exe
+D:\projects\playground\playground\bin\Debug\playground.pdb
+D:\projects\playground\playground\bin\Debug\Ranorex.Core.Resolver.dll
+D:\projects\playground\playground\obj\x86\Debug\playground.csproj.CopyComplete
+D:\projects\playground\playground\obj\x86\Debug\playground.exe
+D:\projects\playground\playground\obj\x86\Debug\playground.pdb
+D:\projects\playground\playground\bin\Debug\ocr\hello_world.png
+D:\projects\playground\playground\bin\Debug\ocr\myimage.png
+D:\projects\playground\playground\bin\Debug\ocr\netcoreapp3.0.zip
+D:\projects\playground\playground\bin\Debug\ocr\target_app_for_ocr_test.exe

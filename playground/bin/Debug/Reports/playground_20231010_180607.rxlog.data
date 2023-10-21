@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="10.96s"
+		durationms="10964"
+		type="root"
+		rid="17b76948be8cfdc"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Administrator"
+		rxversion="10.1.5.0"
+		host="BWW10"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-DE"
+		screenresolution="1918x1048"
+		timestamp="10.10.2023 18:06:07"
+		timestampiso="2023-10-10T16:06:07"
+		endtime="10.10.2023 18:06:18"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="704ms"
+			durationms="704"
+			type="test-suite"
+			rid="907ba5fb5d7ca41"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="playground"
+			headertext="playground"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Failed"
+				duration="611ms"
+				durationms="611"
+				type="test-case"
+				rid="1dc2b9cff1b323f0"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TestCase"
+				testcontainerid="57f45815-51f0-4c0c-9f6c-0ebc3a971e0d"
+				headertext="TestCase"
+				displayName="TestCase"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Failed"
+					duration="547ms"
+					durationms="547"
+					type="test-module"
+					rid="1164f49c79455170"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Recording1"
+					displayName="Recording1"
+					moduleid="e33a4eff-42d9-464e-886c-c8060631b8ce"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<errormessage>
+						Der Verzeichnisname ist ungültig
+					</errormessage>
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.330"
+						timeRelativeToTestModuleStartTime="00:00.226"
+						timeWallClock="18:06:17"
+						time="00:00.330"
+						level="Error"
+						category="Module"
+						errimg="images_playgrou_71c5e5fb\playgrou_71c5e5fb_23689bfd_trace.jpg"
+						errthumb="images_playgrou_71c5e5fb\playgrou_71c5e5fb_23689bfd_trace_thumb.jpg">
+						<message>
+							Der Verzeichnisname ist ungültig
+						</message>
+						<metainfo
+							stacktrace="   bei System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   bei System.Diagnostics.Process.Start()
+   bei System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   bei playground.Recording1.Init() in D:\projects\playground\playground\Recording1.UserCode.cs:Zeile 48.
+   bei playground.Recording1.Ranorex.Core.Testing.ITestModule.Run() in D:\projects\playground\playground\Recording1.cs:Zeile 80.
+   bei Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+							codefile="D:\projects\playground\playground\Recording1.UserCode.cs"
+							codeline="48"
+							loglvl="Error">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

@@ -1,0 +1,79 @@
+﻿<repository
+id="a6915d7d-ce87-47ea-94e9-dbcdb462e8d2"
+name="playgroundRepository">
+	<codegen
+	classname="playgroundRepository"
+	namespace="playground">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="ad0f3130-4cce-4bde-bc8e-05bc0c06e04f"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="982e7b71-84cd-4756-a9e0-34e7cf491deb"
+		isrooted="True"
+		name="Form1"
+		refpath="/form[@controlname='Form1']"
+		searchtimeout="10000ms"
+		usecache="True">
+			<item
+			addcaps="picture,control,nativewindow"
+			capname="picture"
+			id="7682440f-4255-418c-a20b-5d8cb509524a"
+			name="pic_box_hello_world"
+			refimgid="db7d005e-8e92-4521-b5a4-080510f98a0a"
+			refpath="/form[@controlname='Form1']/picture[@controlname='pictureBox1']"
+			robustPath=""
+			searchtimeout="10000ms">
+				/form[@controlname='Form1']/picture[@controlname='pictureBox1']
+			</item>
+			<item
+			addcaps="picture,control,nativewindow"
+			capname="picture"
+			id="4c1a3ecb-5c7b-4aef-9430-a45041e8b8cc"
+			name="pic_box_masterservice"
+			refimgid="4e89d106-00a9-4100-ba2b-971bc0eb74de"
+			refpath="/form[@controlname='Form1']/picture[@controlname='pictureBox2']"
+			robustPath=""
+			searchtimeout="10000ms">
+				/form[@controlname='Form1']/picture[@controlname='pictureBox2']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="aa083b98-abde-442c-a5ce-275f221475cd"
+			name="textbox"
+			refimgid="c41fec6d-3182-41e4-a059-a41ba0261010"
+			refpath="/form[@controlname='Form1']/text/text[@accessiblerole='Text']"
+			robustPath=""
+			searchtimeout="10000ms">
+				/form[@controlname='Form1']/?/?/text[@accessiblerole='Text']
+			</item>
+			<basepath>
+				/form[@controlname='Form1']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH4SURBVDhPrdFdSJNhGMbxR1BzhTJzapnsJGgU
+RnQQEXYQhGkEgRIUihSzrKyEMM0ME00ENRY6WjPLmOasObKkHDTKmoSBERUZbNWsVdtys/nRKjr5
+9+F74AvBwLrggufk/l0Hj/gveTDoYD6VzmcB6SnLsDGZbxOdfPW2EnbXMDNawvTjPCaHNnKlOj4y
+MGRQEfY08cVVzsyzQqYeZTN5by2fB9R0VC6KDNxvTZqzmknIrmGiP4VxaxzGsoVyYGxNNM7VMTzP
+iGVkVRyOlQrsusVMDWcT+r1qUxPoS+DTtWh83QJ9qUIOTN/sJWQ2ETDq8Taexro8noEmJaE7GoL9
+yQR6Ffh7ovjYJfBcFuhK4uRA8KIBf3MDnqpy3hwoQq9O5EaDkuCv1XFLDD6z4INJ8K5D4G4XNO5f
+IAfenzqB+3AxzvwdvMjZTPWSFCy1CfivRuGVVscuCV63CZxGQX1RrBxwFe5idFsWTzPXMZKh4aAq
+7a9/P7fS+SxQkZrKEdVSipPS2J24jAJlOlV9b+l08Kftd+GsDequw7Fu2HrcJgekpyxlZhdGO5y5
+DTVWONoF+9qgoOUH67U9kYG9hiectECpCbTnIV/3ndz6ADmVr1iReyEykFc3yJ5zsLM5zPZaH1sq
+XrLp0EM2aG+RntUiB+ZT6fxfIsRPbYnQgbXhGFYAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

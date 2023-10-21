@@ -1,0 +1,12 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution playground[playground[ocr[]Recording1.rxrec[]]]]&#xD;&#xA;Solution playground\playground\playground.rxtst&#xD;&#xA;Solution playground" />
+  <StartupProject value="{94CE22A2-351A-42C2-8A4B-07DDA79646EB}" />
+</Properties>

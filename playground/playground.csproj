@@ -166,7 +166,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="ocr\target_app_for_ocr_test.exe">
-      <id>550d2d66-97cc-48b5-b3ca-bc840dc43d04</id>
+      <id>f8bc77d0-7d24-4ffc-bb0f-ee0bdc23294c</id>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="playgroundRepository.rximg">

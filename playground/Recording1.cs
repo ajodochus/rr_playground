@@ -86,7 +86,13 @@ namespace playground
             repo.Form1.pic_box_hello_world.EnsureVisible();
             Delay.Milliseconds(0);
             
-            start_ocr();
+            ocr_element(repo.Form1.textboxInfo);
+            Delay.Milliseconds(0);
+            
+            ocr_element(repo.Form1.pic_box_hello_worldInfo);
+            Delay.Milliseconds(0);
+            
+            ocr_element(repo.Form1.pic_box_masterserviceInfo);
             Delay.Milliseconds(0);
             
             stop_SUT();

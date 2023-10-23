@@ -51,7 +51,7 @@ namespace playground
   
    		
 
-        public void start_ocr()
+        public void ocr_element(RepoItemInfo ItemInfo)
         {
             Ranorex.Report.Info("exec dir: " + source_path);
             if(Directory.Exists(ocr_folder)){
@@ -59,13 +59,13 @@ namespace playground
             }
 
         	System.IO.Compression.ZipFile.ExtractToDirectory(Path.Combine(ocr_folder, ocr_reader_zip), ocr_folder);
-        	
-		  	//string pictureBox1 = repo.Form1.pic_box_hello_world;
-		  	Ranorex.Unknown pictureBox1  = repo.Form1.pic_box_hello_worldInfo.CreateAdapter<Ranorex.Unknown>(true);
-		  	Ranorex.Unknown pictureBox2  = repo.Form1.pic_box_masterserviceInfo.CreateAdapter<Ranorex.Unknown>(true);
-		  	Ranorex.Unknown textbox  = repo.Form1.textboxInfo.CreateAdapter<Ranorex.Unknown>(true);		  	
+        	Ranorex.Unknown repo_element = ItemInfo.CreateAdapter<Ranorex.Unknown>(true);
 
-		  	SaveScreenshot(textbox);
+		  	//Ranorex.Unknown pictureBox1  = repo.Form1.pic_box_hello_worldInfo.CreateAdapter<Ranorex.Unknown>(true);
+		  	//Ranorex.Unknown pictureBox2  = repo.Form1.pic_box_masterserviceInfo.CreateAdapter<Ranorex.Unknown>(true);
+		  	//Ranorex.Unknown textbox  = repo.Form1.textboxInfo.CreateAdapter<Ranorex.Unknown>(true);		  	
+
+		  	SaveScreenshot(repo_element);
 		  	get_string_from_ocr();
         }
         

@@ -28,7 +28,7 @@
 			</testsuite>
 			<testcase
 			id="57f45815-51f0-4c0c-9f6c-0ebc3a971e0d"
-			name="TestCase">
+			name="OCR">
 			</testcase>
 			<testcase
 			id="65d69d9d-9d59-4f3b-b8d0-01218f7c6601"
@@ -54,7 +54,7 @@
 				name="playground">
 					<testcase
 					id="57f45815-51f0-4c0c-9f6c-0ebc3a971e0d"
-					name="TestCase">
+					name="OCR">
 						<testmodule
 						id="d92b98d7-c7ad-4353-8e7f-7580e738a97e"
 						name="Recording1">

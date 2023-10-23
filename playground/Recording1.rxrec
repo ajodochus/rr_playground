@@ -818,7 +818,7 @@ mode="Global">
 		classname="Recording1"
 		enabled="True"
 		isexternaltestmethod="False"
-		methodname="start_ocr"
+		methodname="ocr_element"
 		namespace="playground"
 		optional="False">
 			<comment>
@@ -827,6 +827,90 @@ mode="Global">
 			</bindings>
 			<arguments
 			id="dff93a7e-07d1-425a-9912-71e0cdbcee73">
+				<argument
+				argname="ItemInfo"
+				id="77e6006c-8aad-47b1-82e7-3ef7f2d6b6be">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="aa083b98-abde-442c-a5ce-275f221475cd"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@controlname='Form1']/?/?/text[@accessiblerole='Text']
+						</path>
+						<robustPath>
+						</robustPath>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		classname="Recording1"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="ocr_element"
+		namespace="playground"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="dff93a7e-07d1-425a-9912-71e0cdbcee73">
+				<argument
+				argname="ItemInfo"
+				id="77e6006c-8aad-47b1-82e7-3ef7f2d6b6be">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="7682440f-4255-418c-a20b-5d8cb509524a"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@controlname='Form1']/picture[@controlname='pictureBox1']
+						</path>
+						<robustPath>
+						</robustPath>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		classname="Recording1"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="ocr_element"
+		namespace="playground"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="dff93a7e-07d1-425a-9912-71e0cdbcee73">
+				<argument
+				argname="ItemInfo"
+				id="77e6006c-8aad-47b1-82e7-3ef7f2d6b6be">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="4c1a3ecb-5c7b-4aef-9430-a45041e8b8cc"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@controlname='Form1']/picture[@controlname='pictureBox2']
+						</path>
+						<robustPath>
+						</robustPath>
+					</info>
+				</argument>
 			</arguments>
 		</userrecorditem>
 		<userrecorditem

@@ -1,6 +1,6 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="playground.rxtst" />
+    <Element value="Recording1.UserCode.cs" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
@@ -13,11 +13,12 @@
       <runOnBuild value="False" />
     </Properties>
     <Array name="recentusercodeselections">
-      <Element value="playground.Recording1.stop_SUT()" />
+      <Element value="playground.Recording1.ocr_element(RepoItemInfo ItemInfo)" />
+      <Element value="playground.Recording1.ocr_element(RepoItemInfo ItemInfo)" />
+      <Element value="playground.Recording1.start_ocr(RepoItemInfo ItemInfo)" />
       <Element value="playground.Recording1.stop_SUT()" />
       <Element value="playground.Recording1.start_SUT()" />
       <Element value="playground.Recording1.start_ocr()" />
-      <Element value="playground.Recording1.Invoke_action_pic_box_hello_world(RepoItemInfo pictureInfo)" />
     </Array>
   </Properties>
 </Properties>

@@ -48,7 +48,6 @@ namespace playground
 
 
 		}
-  
    		
 
         public void ocr_element(RepoItemInfo ItemInfo)
@@ -69,7 +68,6 @@ namespace playground
 		  	get_string_from_ocr();
         }
         
-        
         public static void SaveScreenshot(Ranorex.Unknown element)
 	    {
    			Bitmap image = Ranorex.Imaging.CaptureDesktopImage(element);
@@ -77,7 +75,17 @@ namespace playground
    			image.Save(pathImageName, System.Drawing.Imaging.ImageFormat.Png);
 	    }
    		
-   		public static string get_string_from_ocr(){
+   		public static void get_string_from_ocr(){
+        	Dictionary<string, string> result_dict = new Dictionary<string, string>();
+        	List<string> TIME_TYPES = new List<string>();
+        	TIME_TYPES.Add("type 1");
+        	TIME_TYPES.Add("type 2");
+        	TIME_TYPES.Add("type 3");
+        	TIME_TYPES.Add("type 4");
+        	TIME_TYPES.Add("type 5");
+        	
+        	int count = 0;
+        	
    			ProcessStartInfo startInfo = new ProcessStartInfo();				
    			startInfo.FileName = Path.Combine(ocr_folder, ocr_reader_exe);
    			startInfo.WorkingDirectory  = Path.Combine( ocr_folder ,@"netcoreapp3.0");
@@ -88,10 +96,26 @@ namespace playground
 			
 			Process process;
 			process = Process.Start(startInfo);
+			string standard_output;
+			while ((standard_output = process.StandardOutput.ReadLine()) != null) {
+				
+				if (!standard_output.IsEmpty()){
+					
+					//Ranorex.Report.Info("aaa" + ((++count).ToString()));
+					result_dict.Add(TIME_TYPES[count], standard_output);
+					count++;
+				}
+			 }
+			
 			process.WaitForExit();
-			var result = process.StandardOutput.ReadToEnd();
-			Ranorex.Report.Info(result.ToString());
-			return result;
+			Ranorex.Report.Info(result_dict["type 2"]);
+			
+//			foreach(KeyValuePair<string, string> ele2 in result_dict)
+//	          {
+//				Ranorex.Report.Info(ele2.Key.ToString(), ele2.Value);
+//	          }
+			
+
    		}
         
         public void start_SUT(){

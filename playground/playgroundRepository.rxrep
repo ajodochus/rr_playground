@@ -24,20 +24,9 @@ name="playgroundRepository">
 			<item
 			addcaps="picture,control,nativewindow"
 			capname="picture"
-			id="7682440f-4255-418c-a20b-5d8cb509524a"
-			name="pic_box_hello_world"
-			refimgid="db7d005e-8e92-4521-b5a4-080510f98a0a"
-			refpath="/form[@controlname='Form1']/picture[@controlname='pictureBox1']"
-			robustPath=""
-			searchtimeout="10000ms">
-				/form[@controlname='Form1']/picture[@controlname='pictureBox1']
-			</item>
-			<item
-			addcaps="picture,control,nativewindow"
-			capname="picture"
-			id="4c1a3ecb-5c7b-4aef-9430-a45041e8b8cc"
-			name="pic_box_masterservice"
-			refimgid="4e89d106-00a9-4100-ba2b-971bc0eb74de"
+			id="bc14a7cb-fd25-4f46-8dbe-8b67a2ef36cb"
+			name="timestamps"
+			refimgid="06e93229-8aa8-4734-86c9-d4aa5cdfe564"
 			refpath="/form[@controlname='Form1']/picture[@controlname='pictureBox2']"
 			robustPath=""
 			searchtimeout="10000ms">
@@ -46,10 +35,10 @@ name="playgroundRepository">
 			<item
 			addcaps="text,accessible"
 			capname="text"
-			id="aa083b98-abde-442c-a5ce-275f221475cd"
-			name="textbox"
-			refimgid="c41fec6d-3182-41e4-a059-a41ba0261010"
-			refpath="/form[@controlname='Form1']/text/text[@accessiblerole='Text']"
+			id="f9d22526-1347-4fb2-81a7-0ce83b6ee961"
+			name="picture_from_textbox"
+			refimgid="277accef-4357-4240-986f-b79139c2cc15"
+			refpath="/form[@controlname='Form1']/text[@controlname='richTextBox1']/text[@accessiblerole='Text']"
 			robustPath=""
 			searchtimeout="10000ms">
 				/form[@controlname='Form1']/?/?/text[@accessiblerole='Text']
@@ -71,6 +60,17 @@ DTVWONoF+9qgoOUH67U9kYG9hiectECpCbTnIV/3ndz6ADmVr1iReyEykFc3yJ5zsLM5zPZaH1sq
 XrLp0EM2aG+RntUiB+ZT6fxfIsRPbYnQgbXhGFYAAAAASUVORK5CYII=
 			</icon>
 		</appfolder>
+		<item
+		addcaps="picture,control,nativewindow"
+		capname="picture"
+		id="de6dc268-9584-4a0e-b490-77a074564d8f"
+		name="hello_world"
+		refimgid="c91f7361-5837-4da1-aefd-a3e69c61c419"
+		refpath="/form[@controlname='Form1']/picture[@controlname='pictureBox1']"
+		robustPath=""
+		searchtimeout="10000ms">
+			/form[@controlname='Form1']/picture[@controlname='pictureBox1']
+		</item>
 		<basepath>
 		</basepath>
 	</rootfolder>

@@ -28,6 +28,7 @@ namespace playground
     {
         static playgroundRepository instance = new playgroundRepository();
         playgroundRepositoryFolders.Form1AppFolder _form1;
+        RepoItemInfo _hello_worldInfo;
 
         /// <summary>
         /// Gets the singleton class instance representing the playgroundRepository element repository.
@@ -45,6 +46,7 @@ namespace playground
             : base("playgroundRepository", "/", null, 0, false, "ad0f3130-4cce-4bde-bc8e-05bc0c06e04f", ".\\RepositoryImages\\playgroundRepositoryad0f3130.rximgres")
         {
             _form1 = new playgroundRepositoryFolders.Form1AppFolder(this);
+            _hello_worldInfo = new RepoItemInfo(this, "hello_world", "/form[@controlname='Form1']/picture[@controlname='pictureBox1']", 10000, null, "de6dc268-9584-4a0e-b490-77a074564d8f");
         }
 
 #region Variables
@@ -60,6 +62,30 @@ namespace playground
             get
             {
                 return _selfInfo;
+            }
+        }
+
+        /// <summary>
+        /// The hello_world item.
+        /// </summary>
+        [RepositoryItem("de6dc268-9584-4a0e-b490-77a074564d8f")]
+        public virtual Ranorex.Picture hello_world
+        {
+            get
+            {
+                 return _hello_worldInfo.CreateAdapter<Ranorex.Picture>(true);
+            }
+        }
+
+        /// <summary>
+        /// The hello_world item info.
+        /// </summary>
+        [RepositoryItemInfo("de6dc268-9584-4a0e-b490-77a074564d8f")]
+        public virtual RepoItemInfo hello_worldInfo
+        {
+            get
+            {
+                return _hello_worldInfo;
             }
         }
 
@@ -85,9 +111,8 @@ namespace playground
         [RepositoryFolder("982e7b71-84cd-4756-a9e0-34e7cf491deb")]
         public partial class Form1AppFolder : RepoGenBaseFolder
         {
-            RepoItemInfo _pic_box_hello_worldInfo;
-            RepoItemInfo _pic_box_masterserviceInfo;
-            RepoItemInfo _textboxInfo;
+            RepoItemInfo _timestampsInfo;
+            RepoItemInfo _picture_from_textboxInfo;
 
             /// <summary>
             /// Creates a new Form1  folder.
@@ -95,9 +120,8 @@ namespace playground
             public Form1AppFolder(RepoGenBaseFolder parentFolder) :
                     base("Form1", "/form[@controlname='Form1']", parentFolder, 10000, null, true, "982e7b71-84cd-4756-a9e0-34e7cf491deb", "")
             {
-                _pic_box_hello_worldInfo = new RepoItemInfo(this, "pic_box_hello_world", "picture[@controlname='pictureBox1']", "", 10000, null, "7682440f-4255-418c-a20b-5d8cb509524a");
-                _pic_box_masterserviceInfo = new RepoItemInfo(this, "pic_box_masterservice", "picture[@controlname='pictureBox2']", "", 10000, null, "4c1a3ecb-5c7b-4aef-9430-a45041e8b8cc");
-                _textboxInfo = new RepoItemInfo(this, "textbox", "?/?/text[@accessiblerole='Text']", "", 10000, null, "aa083b98-abde-442c-a5ce-275f221475cd");
+                _timestampsInfo = new RepoItemInfo(this, "timestamps", "picture[@controlname='pictureBox2']", "", 10000, null, "bc14a7cb-fd25-4f46-8dbe-8b67a2ef36cb");
+                _picture_from_textboxInfo = new RepoItemInfo(this, "picture_from_textbox", "?/?/text[@accessiblerole='Text']", "", 10000, null, "f9d22526-1347-4fb2-81a7-0ce83b6ee961");
             }
 
             /// <summary>
@@ -125,74 +149,50 @@ namespace playground
             }
 
             /// <summary>
-            /// The pic_box_hello_world item.
+            /// The timestamps item.
             /// </summary>
-            [RepositoryItem("7682440f-4255-418c-a20b-5d8cb509524a")]
-            public virtual Ranorex.Picture pic_box_hello_world
+            [RepositoryItem("bc14a7cb-fd25-4f46-8dbe-8b67a2ef36cb")]
+            public virtual Ranorex.Picture timestamps
             {
                 get
                 {
-                    return _pic_box_hello_worldInfo.CreateAdapter<Ranorex.Picture>(true);
+                    return _timestampsInfo.CreateAdapter<Ranorex.Picture>(true);
                 }
             }
 
             /// <summary>
-            /// The pic_box_hello_world item info.
+            /// The timestamps item info.
             /// </summary>
-            [RepositoryItemInfo("7682440f-4255-418c-a20b-5d8cb509524a")]
-            public virtual RepoItemInfo pic_box_hello_worldInfo
+            [RepositoryItemInfo("bc14a7cb-fd25-4f46-8dbe-8b67a2ef36cb")]
+            public virtual RepoItemInfo timestampsInfo
             {
                 get
                 {
-                    return _pic_box_hello_worldInfo;
+                    return _timestampsInfo;
                 }
             }
 
             /// <summary>
-            /// The pic_box_masterservice item.
+            /// The picture_from_textbox item.
             /// </summary>
-            [RepositoryItem("4c1a3ecb-5c7b-4aef-9430-a45041e8b8cc")]
-            public virtual Ranorex.Picture pic_box_masterservice
+            [RepositoryItem("f9d22526-1347-4fb2-81a7-0ce83b6ee961")]
+            public virtual Ranorex.Text picture_from_textbox
             {
                 get
                 {
-                    return _pic_box_masterserviceInfo.CreateAdapter<Ranorex.Picture>(true);
+                    return _picture_from_textboxInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
             /// <summary>
-            /// The pic_box_masterservice item info.
+            /// The picture_from_textbox item info.
             /// </summary>
-            [RepositoryItemInfo("4c1a3ecb-5c7b-4aef-9430-a45041e8b8cc")]
-            public virtual RepoItemInfo pic_box_masterserviceInfo
+            [RepositoryItemInfo("f9d22526-1347-4fb2-81a7-0ce83b6ee961")]
+            public virtual RepoItemInfo picture_from_textboxInfo
             {
                 get
                 {
-                    return _pic_box_masterserviceInfo;
-                }
-            }
-
-            /// <summary>
-            /// The textbox item.
-            /// </summary>
-            [RepositoryItem("aa083b98-abde-442c-a5ce-275f221475cd")]
-            public virtual Ranorex.Text textbox
-            {
-                get
-                {
-                    return _textboxInfo.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The textbox item info.
-            /// </summary>
-            [RepositoryItemInfo("aa083b98-abde-442c-a5ce-275f221475cd")]
-            public virtual RepoItemInfo textboxInfo
-            {
-                get
-                {
-                    return _textboxInfo;
+                    return _picture_from_textboxInfo;
                 }
             }
         }

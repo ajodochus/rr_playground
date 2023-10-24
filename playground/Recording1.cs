@@ -82,17 +82,21 @@ namespace playground
             start_SUT();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Invoke action", "Invoking EnsureVisible() on item 'Form1.pic_box_hello_world'.", repo.Form1.pic_box_hello_worldInfo, new RecordItemIndex(1));
-            repo.Form1.pic_box_hello_world.EnsureVisible();
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking EnsureVisible() on item 'hello_world'.", repo.hello_worldInfo, new RecordItemIndex(1));
+            repo.hello_world.EnsureVisible();
             Delay.Milliseconds(0);
             
-            ocr_element(repo.Form1.textboxInfo);
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Focus() on item 'hello_world'.", repo.hello_worldInfo, new RecordItemIndex(2));
+            repo.hello_world.Focus();
             Delay.Milliseconds(0);
             
-            ocr_element(repo.Form1.pic_box_hello_worldInfo);
-            Delay.Milliseconds(0);
+            //ocr_element(repo.Form1.picture_from_textboxInfo);
+            //Delay.Milliseconds(0);
             
-            ocr_element(repo.Form1.pic_box_masterserviceInfo);
+            //ocr_element(repo.hello_worldInfo);
+            //Delay.Milliseconds(0);
+            
+            ocr_element(repo.Form1.timestampsInfo);
             Delay.Milliseconds(0);
             
             stop_SUT();

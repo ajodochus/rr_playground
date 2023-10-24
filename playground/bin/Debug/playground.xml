@@ -24,6 +24,16 @@
             The Self item info.
             </summary>
         </member>
+        <member name="P:playground.playgroundRepository.hello_world">
+            <summary>
+            The hello_world item.
+            </summary>
+        </member>
+        <member name="P:playground.playgroundRepository.hello_worldInfo">
+            <summary>
+            The hello_world item info.
+            </summary>
+        </member>
         <member name="P:playground.playgroundRepository.Form1">
             <summary>
             The Form1 folder.
@@ -54,34 +64,24 @@
             The Self item info.
             </summary>
         </member>
-        <member name="P:playground.playgroundRepositoryFolders.Form1AppFolder.pic_box_hello_world">
+        <member name="P:playground.playgroundRepositoryFolders.Form1AppFolder.timestamps">
             <summary>
-            The pic_box_hello_world item.
+            The timestamps item.
             </summary>
         </member>
-        <member name="P:playground.playgroundRepositoryFolders.Form1AppFolder.pic_box_hello_worldInfo">
+        <member name="P:playground.playgroundRepositoryFolders.Form1AppFolder.timestampsInfo">
             <summary>
-            The pic_box_hello_world item info.
+            The timestamps item info.
             </summary>
         </member>
-        <member name="P:playground.playgroundRepositoryFolders.Form1AppFolder.pic_box_masterservice">
+        <member name="P:playground.playgroundRepositoryFolders.Form1AppFolder.picture_from_textbox">
             <summary>
-            The pic_box_masterservice item.
+            The picture_from_textbox item.
             </summary>
         </member>
-        <member name="P:playground.playgroundRepositoryFolders.Form1AppFolder.pic_box_masterserviceInfo">
+        <member name="P:playground.playgroundRepositoryFolders.Form1AppFolder.picture_from_textboxInfo">
             <summary>
-            The pic_box_masterservice item info.
-            </summary>
-        </member>
-        <member name="P:playground.playgroundRepositoryFolders.Form1AppFolder.textbox">
-            <summary>
-            The textbox item.
-            </summary>
-        </member>
-        <member name="P:playground.playgroundRepositoryFolders.Form1AppFolder.textboxInfo">
-            <summary>
-            The textbox item info.
+            The picture_from_textbox item info.
             </summary>
         </member>
         <member name="T:playground.Recording1">

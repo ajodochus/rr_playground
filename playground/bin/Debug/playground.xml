@@ -4,6 +4,123 @@
         <name>playground</name>
     </assembly>
     <members>
+        <member name="T:playground.compare_xml.compare_xml">
+             <summary>
+            The compare_xml recording.
+             </summary>
+        </member>
+        <member name="F:playground.compare_xml.compare_xml.repo">
+            <summary>
+            Holds an instance of the global::playground.playgroundRepository repository.
+            </summary>
+        </member>
+        <member name="M:playground.compare_xml.compare_xml.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:playground.compare_xml.compare_xml.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:playground.compare_xml.compare_xml.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:playground.compare_xml.compare_xml.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:playground.compare_xml.compare_xml.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:playground.compare_xml.compare_xml.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:playground.get_table_content.DDT">
+             <summary>
+            The DDT recording.
+             </summary>
+        </member>
+        <member name="F:playground.get_table_content.DDT.repo">
+            <summary>
+            Holds an instance of the global::playground.playgroundRepository repository.
+            </summary>
+        </member>
+        <member name="M:playground.get_table_content.DDT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:playground.get_table_content.DDT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:playground.get_table_content.DDT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:playground.get_table_content.DDT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:playground.get_table_content.DDT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:playground.get_table_content.DDT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:playground.ocr.Get_strings_from_pic">
+             <summary>
+            The get_strings_from_pic recording.
+             </summary>
+        </member>
+        <member name="F:playground.ocr.Get_strings_from_pic.repo">
+            <summary>
+            Holds an instance of the global::playground.playgroundRepository repository.
+            </summary>
+        </member>
+        <member name="M:playground.ocr.Get_strings_from_pic.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:playground.ocr.Get_strings_from_pic.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:playground.ocr.Get_strings_from_pic.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:playground.ocr.Get_strings_from_pic.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:playground.ocr.Get_strings_from_pic.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:playground.ocr.Get_strings_from_pic.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
         <member name="T:playground.playgroundRepository">
             <summary>
             The class representing the playgroundRepository element repository.
@@ -82,6 +199,16 @@
         <member name="P:playground.playgroundRepositoryFolders.Form1AppFolder.picture_from_textboxInfo">
             <summary>
             The picture_from_textbox item info.
+            </summary>
+        </member>
+        <member name="P:playground.playgroundRepositoryFolders.Form1AppFolder.table_data">
+            <summary>
+            The table_data item.
+            </summary>
+        </member>
+        <member name="P:playground.playgroundRepositoryFolders.Form1AppFolder.table_dataInfo">
+            <summary>
+            The table_data item info.
             </summary>
         </member>
         <member name="T:playground.Recording1">

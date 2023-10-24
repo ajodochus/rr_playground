@@ -1,0 +1,8 @@
+D:\projects\playground\module_lib\bin\Debug\module_lib.rxtmg
+D:\projects\playground\module_lib\bin\Debug\module_lib.xml
+D:\projects\playground\module_lib\bin\Debug\module_lib.dll
+D:\projects\playground\module_lib\bin\Debug\module_lib.pdb
+D:\projects\playground\module_lib\bin\Debug\Ranorex.Core.Resolver.dll
+D:\projects\playground\module_lib\obj\x86\Debug\module_lib.csproj.CopyComplete
+D:\projects\playground\module_lib\obj\x86\Debug\module_lib.dll
+D:\projects\playground\module_lib\obj\x86\Debug\module_lib.pdb

@@ -43,6 +43,17 @@ name="playgroundRepository">
 			searchtimeout="10000ms">
 				/form[@controlname='Form1']/?/?/text[@accessiblerole='Text']
 			</item>
+			<item
+			addcaps="table,control,nativewindow"
+			capname="table"
+			id="b583f854-fe23-43ea-8565-d157b68314cc"
+			name="table_data"
+			refimgid="62db609f-9bcc-41e4-8403-f0523a3e4c93"
+			refpath="/form[@controlname='Form1']/table[@controlname='mydg']"
+			robustPath=""
+			searchtimeout="10000ms">
+				/form[@controlname='Form1']/table[@controlname='mydg']
+			</item>
 			<basepath>
 				/form[@controlname='Form1']
 			</basepath>

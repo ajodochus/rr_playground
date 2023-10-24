@@ -2,6 +2,16 @@
 <testsuitedoc>
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
+			<testmodule
+			id="12140e72-74af-4bfd-9a07-3e21e5736d61"
+			name="DDT"
+			ref="93ceb1c1-3439-4754-b803-5c5d88e16c16"
+			type="Recording">
+			</testmodule>
+			<testcase
+			id="17f70a29-8da6-44d2-9540-c9468a6e0ced"
+			name="XML_diff">
+			</testcase>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
 			TracingScreenshotMode="Foreground"
@@ -38,9 +48,19 @@
 					<![CDATA[<p><a href="https://github.com/charlesw/tesseract-samples">https://github.com/charlesw/tesseract-samples</a></p>]]>
 				</description>
 			</testcase>
+			<testcase
+			id="bf240422-ee87-4d83-849c-2c3f7118e392"
+			name="DDT">
+			</testcase>
+			<testmodule
+			id="d664c7a1-2a94-481a-82c8-b2d5f7b235b0"
+			name="compare_xml"
+			ref="ffce8fd6-918e-426a-aafc-e7aef3f62e9e"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="d92b98d7-c7ad-4353-8e7f-7580e738a97e"
-			name="Recording1"
+			name="Get_strings_from_pic"
 			ref="e33a4eff-42d9-464e-886c-c8060631b8ce"
 			type="Recording">
 			</testmodule>
@@ -57,7 +77,23 @@
 					name="OCR">
 						<testmodule
 						id="d92b98d7-c7ad-4353-8e7f-7580e738a97e"
-						name="Recording1">
+						name="Get_strings_from_pic">
+						</testmodule>
+					</testcase>
+					<testcase
+					id="bf240422-ee87-4d83-849c-2c3f7118e392"
+					name="DDT">
+						<testmodule
+						id="12140e72-74af-4bfd-9a07-3e21e5736d61"
+						name="DDT">
+						</testmodule>
+					</testcase>
+					<testcase
+					id="17f70a29-8da6-44d2-9540-c9468a6e0ced"
+					name="XML_diff">
+						<testmodule
+						id="d664c7a1-2a94-481a-82c8-b2d5f7b235b0"
+						name="compare_xml">
 						</testmodule>
 					</testcase>
 				</testcase>
@@ -71,7 +107,7 @@
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
-			id="57f45815-51f0-4c0c-9f6c-0ebc3a971e0d">
+			id="17f70a29-8da6-44d2-9540-c9468a6e0ced">
 			</testcontainer>
 			<testcontainer
 			id="65d69d9d-9d59-4f3b-b8d0-01218f7c6601">
@@ -79,5 +115,17 @@
 		</testconfiguration>
 	</testconfigurations>
 	<references>
+		<reference>
+			Ranorex Automation Helpers.dll
+		</reference>
+		<reference>
+			XmlDiffLib.dll
+		</reference>
+		<reference>
+			xmlunit-core.dll
+		</reference>
+		<reference>
+			xunit.dll
+		</reference>
 	</references>
 </testsuitedoc>

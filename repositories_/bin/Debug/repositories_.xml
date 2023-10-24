@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>repositories_</name>
+    </assembly>
+    <members>
+        <member name="T:repositories_.Repo1">
+            <summary>
+            The class representing the Repo1 element repository.
+            </summary>
+        </member>
+        <member name="P:repositories_.Repo1.Instance">
+            <summary>
+            Gets the singleton class instance representing the Repo1 element repository.
+            </summary>
+        </member>
+        <member name="M:repositories_.Repo1.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:repositories_.Repo1.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:repositories_.Repo1Folders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:repositories_.Repository1">
+            <summary>
+            The class representing the Repository1 element repository.
+            </summary>
+        </member>
+        <member name="P:repositories_.Repository1.Instance">
+            <summary>
+            Gets the singleton class instance representing the Repository1 element repository.
+            </summary>
+        </member>
+        <member name="M:repositories_.Repository1.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:repositories_.Repository1.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:repositories_.Repository1Folders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:repositories_.Repository2">
+            <summary>
+            The class representing the Repository2 element repository.
+            </summary>
+        </member>
+        <member name="P:repositories_.Repository2.Instance">
+            <summary>
+            Gets the singleton class instance representing the Repository2 element repository.
+            </summary>
+        </member>
+        <member name="M:repositories_.Repository2.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:repositories_.Repository2.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:repositories_.Repository2Folders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -13,3 +13,19 @@ D:\projects\playground\playground\bin\Debug\ocr\hello_world.png
 D:\projects\playground\playground\bin\Debug\ocr\myimage.png
 D:\projects\playground\playground\bin\Debug\ocr\netcoreapp3.0.zip
 D:\projects\playground\playground\bin\Debug\ocr\target_app_for_ocr_test.exe
+D:\projects\playground\playground\bin\Debug\playground.rxsqc
+D:\projects\playground\playground\bin\Debug\ocr\data.csv
+D:\projects\playground\playground\bin\Debug\Ranorex Automation Helpers.dll
+D:\projects\playground\playground\bin\Debug\Ranorex.ReportToPDF.exe
+D:\projects\playground\playground\bin\Debug\Ranorex Automation Helpers.pdb
+D:\projects\playground\playground\bin\Debug\Ranorex Automation Helpers.xml
+D:\projects\playground\playground\bin\Debug\compare_xml\INIFileParser.dll
+D:\projects\playground\playground\bin\Debug\compare_xml\Newtonsoft.Json.dll
+D:\projects\playground\playground\bin\Debug\compare_xml\System.IO.Compression.ZipFile.dll
+D:\projects\playground\playground\bin\Debug\compare_xml\xmlunit-core.dll
+D:\projects\playground\playground\bin\Debug\compare_xml\_compare.xml
+D:\projects\playground\playground\bin\Debug\compare_xml\_source.xml
+D:\projects\playground\playground\bin\Debug\XmlDiffLib.dll
+D:\projects\playground\playground\bin\Debug\xmlunit-core.dll
+D:\projects\playground\playground\bin\Debug\xunit.dll
+D:\projects\playground\playground\bin\Debug\xunit.xml

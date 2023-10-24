@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="ffce8fd6-918e-426a-aafc-e7aef3f62e9e"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="compare_xml"
+	namespace="playground.compare_xml">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="a6915d7d-ce87-47ea-94e9-dbcdb462e8d2"
+	name="playgroundRepository"
+	relativepath="..\playgroundRepository.rxrep">
+		<codegen
+		classname="playgroundRepository"
+		namespace="playground">
+		</codegen>
+		<rootfolder
+		id="ad0f3130-4cce-4bde-bc8e-05bc0c06e04f"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		compare_xml.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+name="module_libRepository"
+id="302ce254-a444-46b4-91b1-8721ff9486a8">
+  <codegen
+  classname="module_libRepository"
+  namespace="module_lib"/>
+  <rootfolder
+  name="Root"
+  id="fb037d8d-e67a-4b06-b757-af19a909f057"
+  searchtimeout="30000ms"
+  capname="unknown"
+  isrooted="True"
+  usecache="True">
+    <basepath/>
+  </rootfolder>
+  <variables/>
+</repository>

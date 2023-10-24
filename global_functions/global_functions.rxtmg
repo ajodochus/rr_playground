@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="global_functions"
+      id="85893026-f4dd-41de-9b25-c82c22e57f8d"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="global_functions"
+      id="85893026-f4dd-41de-9b25-c82c22e57f8d"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

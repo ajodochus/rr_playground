@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="repositories_"
+      id="3ef38775-50ad-4c7b-8e83-d11261bcdea8"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="repositories_"
+      id="3ef38775-50ad-4c7b-8e83-d11261bcdea8"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

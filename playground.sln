@@ -9,7 +9,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Ranorex = .\Ranorex.rxsettings
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "utils", "utils", "{D836BAA5-FB7C-4FB4-8E17-1366C0B5466C}"
+	ProjectSection(SolutionItems) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "global_functions", "global_functions\global_functions.csproj", "{0BA64C0F-C793-4AD8-8F44-B1B96B632EB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "module_lib", "module_lib\module_lib.csproj", "{37E3E340-9484-44B4-831E-A67117525EC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "repositories_", "repositories_\repositories_.csproj", "{CA82182A-1DF9-40A9-A815-89DBC32C0CA4}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "playground", "playground\playground.csproj", "{94CE22A2-351A-42C2-8A4B-07DDA79646EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ranorex Automation Helpers", "RanorexAutomationHelpers\Ranorex Automation Helpers.csproj", "{DA827913-DABB-466F-8931-D6417B7C5587}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,5 +33,26 @@ Global
 		{94CE22A2-351A-42C2-8A4B-07DDA79646EB}.Debug|x86.ActiveCfg = Debug|x86
 		{94CE22A2-351A-42C2-8A4B-07DDA79646EB}.Release|x86.Build.0 = Release|x86
 		{94CE22A2-351A-42C2-8A4B-07DDA79646EB}.Release|x86.ActiveCfg = Release|x86
+		{DA827913-DABB-466F-8931-D6417B7C5587}.Debug|x86.Build.0 = Debug|x86
+		{DA827913-DABB-466F-8931-D6417B7C5587}.Debug|x86.ActiveCfg = Debug|x86
+		{DA827913-DABB-466F-8931-D6417B7C5587}.Release|x86.Build.0 = Release|x86
+		{DA827913-DABB-466F-8931-D6417B7C5587}.Release|x86.ActiveCfg = Release|x86
+		{0BA64C0F-C793-4AD8-8F44-B1B96B632EB1}.Debug|x86.Build.0 = Debug|x86
+		{0BA64C0F-C793-4AD8-8F44-B1B96B632EB1}.Debug|x86.ActiveCfg = Debug|x86
+		{0BA64C0F-C793-4AD8-8F44-B1B96B632EB1}.Release|x86.Build.0 = Release|x86
+		{0BA64C0F-C793-4AD8-8F44-B1B96B632EB1}.Release|x86.ActiveCfg = Release|x86
+		{37E3E340-9484-44B4-831E-A67117525EC8}.Debug|x86.Build.0 = Debug|x86
+		{37E3E340-9484-44B4-831E-A67117525EC8}.Debug|x86.ActiveCfg = Debug|x86
+		{37E3E340-9484-44B4-831E-A67117525EC8}.Release|x86.Build.0 = Release|x86
+		{37E3E340-9484-44B4-831E-A67117525EC8}.Release|x86.ActiveCfg = Release|x86
+		{CA82182A-1DF9-40A9-A815-89DBC32C0CA4}.Debug|x86.Build.0 = Debug|x86
+		{CA82182A-1DF9-40A9-A815-89DBC32C0CA4}.Debug|x86.ActiveCfg = Debug|x86
+		{CA82182A-1DF9-40A9-A815-89DBC32C0CA4}.Release|x86.Build.0 = Release|x86
+		{CA82182A-1DF9-40A9-A815-89DBC32C0CA4}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0BA64C0F-C793-4AD8-8F44-B1B96B632EB1} = {D836BAA5-FB7C-4FB4-8E17-1366C0B5466C}
+		{37E3E340-9484-44B4-831E-A67117525EC8} = {D836BAA5-FB7C-4FB4-8E17-1366C0B5466C}
+		{CA82182A-1DF9-40A9-A815-89DBC32C0CA4} = {D836BAA5-FB7C-4FB4-8E17-1366C0B5466C}
 	EndGlobalSection
 EndGlobal

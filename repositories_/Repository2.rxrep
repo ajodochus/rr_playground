@@ -1,0 +1,20 @@
+﻿<repository
+id="34a6e0ea-9d3d-451a-a9c4-6bd07d215250"
+name="Repository2">
+	<codegen
+	classname="Repository2"
+	namespace="repositories_">
+	</codegen>
+	<rootfolder
+	capname="host"
+	id="a6c12276-3362-48f4-8ecd-ccb9264c9c0f"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="False">
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

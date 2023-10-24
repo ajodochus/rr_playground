@@ -113,6 +113,7 @@ namespace playground
         {
             RepoItemInfo _timestampsInfo;
             RepoItemInfo _picture_from_textboxInfo;
+            RepoItemInfo _table_dataInfo;
 
             /// <summary>
             /// Creates a new Form1  folder.
@@ -122,6 +123,7 @@ namespace playground
             {
                 _timestampsInfo = new RepoItemInfo(this, "timestamps", "picture[@controlname='pictureBox2']", "", 10000, null, "bc14a7cb-fd25-4f46-8dbe-8b67a2ef36cb");
                 _picture_from_textboxInfo = new RepoItemInfo(this, "picture_from_textbox", "?/?/text[@accessiblerole='Text']", "", 10000, null, "f9d22526-1347-4fb2-81a7-0ce83b6ee961");
+                _table_dataInfo = new RepoItemInfo(this, "table_data", "table[@controlname='mydg']", "", 10000, null, "b583f854-fe23-43ea-8565-d157b68314cc");
             }
 
             /// <summary>
@@ -193,6 +195,30 @@ namespace playground
                 get
                 {
                     return _picture_from_textboxInfo;
+                }
+            }
+
+            /// <summary>
+            /// The table_data item.
+            /// </summary>
+            [RepositoryItem("b583f854-fe23-43ea-8565-d157b68314cc")]
+            public virtual Ranorex.Table table_data
+            {
+                get
+                {
+                    return _table_dataInfo.CreateAdapter<Ranorex.Table>(true);
+                }
+            }
+
+            /// <summary>
+            /// The table_data item info.
+            /// </summary>
+            [RepositoryItemInfo("b583f854-fe23-43ea-8565-d157b68314cc")]
+            public virtual RepoItemInfo table_dataInfo
+            {
+                get
+                {
+                    return _table_dataInfo;
                 }
             }
         }

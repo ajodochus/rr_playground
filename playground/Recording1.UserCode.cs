@@ -6,6 +6,7 @@
 // http://www.ranorex.com
 //
 ///////////////////////////////////////////////////////////////////////////////
+
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -18,130 +19,19 @@ using Ranorex;
 using Ranorex.Core;
 using Ranorex.Core.Repository;
 using Ranorex.Core.Testing;
-using System.Diagnostics;
-using System.IO;
-using System.IO.Compression;
-
-
 
 namespace playground
 {
-
-	
     public partial class Recording1
     {
-    	
-    	
-    	static string source_path = System.IO.Path.GetDirectoryName(System.Windows.Forms.Application.ExecutablePath);
-    	static string ocr_folder = Path.Combine(source_path, @"ocr\");
-        static	string ocr_reader_zip = "netcoreapp3.0.zip";
-        static string ocr_reader_exe = @"netcoreapp3.0\Tesseract.ConsoleDemo.exe";
-        static	string ocr_target_app = "target_app_for_ocr_test.exe";
-    	
         /// <summary>
         /// This method gets called right after the recording has been started.
         /// It can be used to execute recording specific initialization code.
         /// </summary>
-  		private void Init(){
-
-      
-
-
-		}
-   		
-
-        public void ocr_element(RepoItemInfo ItemInfo)
+        private void Init()
         {
-            Ranorex.Report.Info("exec dir: " + source_path);
-            if(Directory.Exists(ocr_folder)){
-            	Directory.Delete(Path.Combine(source_path, @"ocr\netcoreapp3.0"), true);
-            }
-
-        	System.IO.Compression.ZipFile.ExtractToDirectory(Path.Combine(ocr_folder, ocr_reader_zip), ocr_folder);
-        	Ranorex.Unknown repo_element = ItemInfo.CreateAdapter<Ranorex.Unknown>(true);
-
-		  	//Ranorex.Unknown pictureBox1  = repo.Form1.pic_box_hello_worldInfo.CreateAdapter<Ranorex.Unknown>(true);
-		  	//Ranorex.Unknown pictureBox2  = repo.Form1.pic_box_masterserviceInfo.CreateAdapter<Ranorex.Unknown>(true);
-		  	//Ranorex.Unknown textbox  = repo.Form1.textboxInfo.CreateAdapter<Ranorex.Unknown>(true);		  	
-
-		  	SaveScreenshot(repo_element);
-		  	get_string_from_ocr();
-        }
-        
-        public static void SaveScreenshot(Ranorex.Unknown element)
-	    {
-   			Bitmap image = Ranorex.Imaging.CaptureDesktopImage(element);
-   			String pathImageName = Path.Combine(ocr_folder, @"myimage.png");
-   			image.Save(pathImageName, System.Drawing.Imaging.ImageFormat.Png);
-	    }
-   		
-   		public static void get_string_from_ocr(){
-        	Dictionary<string, string> result_dict = new Dictionary<string, string>();
-        	List<string> TIME_TYPES = new List<string>();
-        	TIME_TYPES.Add("type 1");
-        	TIME_TYPES.Add("type 2");
-        	TIME_TYPES.Add("type 3");
-        	TIME_TYPES.Add("type 4");
-        	TIME_TYPES.Add("type 5");
-        	
-        	int count = 0;
-        	
-   			ProcessStartInfo startInfo = new ProcessStartInfo();				
-   			startInfo.FileName = Path.Combine(ocr_folder, ocr_reader_exe);
-   			startInfo.WorkingDirectory  = Path.Combine( ocr_folder ,@"netcoreapp3.0");
-			startInfo.Arguments = Path.Combine(ocr_folder, "myimage.png");
-			startInfo.UseShellExecute = false;
-			startInfo.RedirectStandardOutput = true;
-			startInfo.CreateNoWindow = true;
-			
-			Process process;
-			process = Process.Start(startInfo);
-			string standard_output;
-			while ((standard_output = process.StandardOutput.ReadLine()) != null) {
-				
-				if (!standard_output.IsEmpty()){
-					
-					//Ranorex.Report.Info("aaa" + ((++count).ToString()));
-					result_dict.Add(TIME_TYPES[count], standard_output);
-					count++;
-				}
-			 }
-			
-			process.WaitForExit();
-			Ranorex.Report.Info(result_dict["type 2"]);
-			
-//			foreach(KeyValuePair<string, string> ele2 in result_dict)
-//	          {
-//				Ranorex.Report.Info(ele2.Key.ToString(), ele2.Value);
-//	          }
-			
-
-   		}
-        
-        public void start_SUT(){
-        	ProcessStartInfo startInfo = new ProcessStartInfo();				
-   			startInfo.FileName = Path.Combine(ocr_folder, ocr_target_app);
-   			Process process;
-			process = Process.Start(startInfo);
-			
-
-        }
-        
-        public void stop_SUT(){
-        	foreach (var process in Process.GetProcessesByName("target_app_for_ocr_test"))
-			{
-			    process.Kill();
-			}
+            // Your recording specific initialization code goes here.
         }
 
     }
 }
-
-
-/*
- * 
- * 
- * 	Bitmap bmp = Ranorex.Imaging.CaptureDesktopImage(pictureBox1);
-	CompressedImage image = new CompressedImage(bmp, ImageFormat.Png);
-	image.Store(@"d:\projects\ocr_pics\myimage.png");
-*/

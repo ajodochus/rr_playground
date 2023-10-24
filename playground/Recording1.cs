@@ -26,7 +26,7 @@ namespace playground
     /// <summary>
     ///The Recording1 recording.
     /// </summary>
-    [TestModule("e33a4eff-42d9-464e-886c-c8060631b8ce", ModuleType.Recording, 1)]
+    [TestModule("5a3bbbed-2f4a-435e-9bfb-1dc88393ebba", ModuleType.Recording, 1)]
     public partial class Recording1 : ITestModule
     {
         /// <summary>
@@ -79,27 +79,7 @@ namespace playground
 
             Init();
 
-            start_SUT();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Invoke action", "Invoking EnsureVisible() on item 'hello_world'.", repo.hello_worldInfo, new RecordItemIndex(1));
-            repo.hello_world.EnsureVisible();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Focus() on item 'hello_world'.", repo.hello_worldInfo, new RecordItemIndex(2));
-            repo.hello_world.Focus();
-            Delay.Milliseconds(0);
-            
-            //ocr_element(repo.Form1.picture_from_textboxInfo);
-            //Delay.Milliseconds(0);
-            
-            //ocr_element(repo.hello_worldInfo);
-            //Delay.Milliseconds(0);
-            
-            ocr_element(repo.Form1.timestampsInfo);
-            Delay.Milliseconds(0);
-            
-            stop_SUT();
+            Ranorex.AutomationHelpers.UserCodeCollections.PopupWatcherLibrary.StartPopupWatcher(repo.Form1.timestampsInfo, repo.Form1.picture_from_textboxInfo);
             Delay.Milliseconds(0);
             
         }

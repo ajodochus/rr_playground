@@ -1,0 +1,11 @@
+D:\projects\playground\global_functions\bin\Debug\global_functions.rxtmg
+D:\projects\playground\global_functions\bin\Debug\global_functions.rxtst
+D:\projects\playground\global_functions\bin\Debug\global_functions.exe.config
+D:\projects\playground\global_functions\bin\Debug\global_functions.xml
+D:\projects\playground\global_functions\bin\Debug\global_functions.exe
+D:\projects\playground\global_functions\bin\Debug\global_functions.pdb
+D:\projects\playground\global_functions\bin\Debug\Ranorex.Core.Resolver.dll
+D:\projects\playground\global_functions\obj\x86\Debug\global_functions.csprojAssemblyReference.cache
+D:\projects\playground\global_functions\obj\x86\Debug\global_functions.csproj.CopyComplete
+D:\projects\playground\global_functions\obj\x86\Debug\global_functions.exe
+D:\projects\playground\global_functions\obj\x86\Debug\global_functions.pdb

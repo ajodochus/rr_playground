@@ -1,0 +1,9 @@
+D:\projects\playground\RanorexAutomationHelpers\bin\Debug\Ranorex Automation Helpers.xml
+D:\projects\playground\RanorexAutomationHelpers\bin\Debug\Ranorex Automation Helpers.dll
+D:\projects\playground\RanorexAutomationHelpers\bin\Debug\Ranorex Automation Helpers.pdb
+D:\projects\playground\RanorexAutomationHelpers\bin\Debug\Ranorex.Core.Resolver.dll
+D:\projects\playground\RanorexAutomationHelpers\bin\Debug\Ranorex.ReportToPDF.exe
+D:\projects\playground\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.csprojAssemblyReference.cache
+D:\projects\playground\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.csproj.CopyComplete
+D:\projects\playground\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.dll
+D:\projects\playground\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.pdb

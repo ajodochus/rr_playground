@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+name="global_functionsRepository"
+id="a868c734-464c-4fd0-b1fd-6e99d961df66">
+  <codegen
+  classname="global_functionsRepository"
+  namespace="global_functions"/>
+  <rootfolder
+  name="Root"
+  id="b74bf6b4-3c10-49e2-8881-d7aa05332c21"
+  searchtimeout="30000ms"
+  capname="unknown"
+  isrooted="True"
+  usecache="True">
+    <basepath/>
+  </rootfolder>
+  <variables/>
+</repository>

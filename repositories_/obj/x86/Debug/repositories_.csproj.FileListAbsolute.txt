@@ -1,0 +1,8 @@
+D:\projects\playground\repositories_\bin\Debug\repositories_.rxtmg
+D:\projects\playground\repositories_\bin\Debug\repositories_.xml
+D:\projects\playground\repositories_\bin\Debug\repositories_.dll
+D:\projects\playground\repositories_\bin\Debug\repositories_.pdb
+D:\projects\playground\repositories_\bin\Debug\Ranorex.Core.Resolver.dll
+D:\projects\playground\repositories_\obj\x86\Debug\repositories_.csproj.CopyComplete
+D:\projects\playground\repositories_\obj\x86\Debug\repositories_.dll
+D:\projects\playground\repositories_\obj\x86\Debug\repositories_.pdb

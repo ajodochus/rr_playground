@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>module_lib</name>
+    </assembly>
+    <members>
+        <member name="T:module_lib.module_libRepository">
+            <summary>
+            The class representing the module_libRepository element repository.
+            </summary>
+        </member>
+        <member name="P:module_lib.module_libRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the module_libRepository element repository.
+            </summary>
+        </member>
+        <member name="M:module_lib.module_libRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:module_lib.module_libRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:module_lib.module_libRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:module_lib.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:module_lib.Recording1.repo">
+            <summary>
+            Holds an instance of the module_libRepository repository.
+            </summary>
+        </member>
+        <member name="M:module_lib.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:module_lib.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:module_lib.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:module_lib.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:module_lib.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:module_lib.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:module_lib.UserCodeCollection1">
+            <summary>
+            Creates a Ranorex user code collection. A collection is used to publish user code methods to the user code library.
+            </summary>
+        </member>
+        <member name="M:module_lib.UserCodeCollection1.UserCodeMethod">
+            <summary>
+            This is a placeholder text. Please describe the purpose of the
+            user code method here. The method is published to the user code library
+            within a user code collection.
+            </summary>
+        </member>
+        <member name="M:module_lib.UserCodeCollection1.UserCodeMethod1">
+            <summary>
+            This is a placeholder text. Please describe the purpose of the
+            user code method here. The method is published to the user code library
+            within a user code collection.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,5 +1,4 @@
 D:\projects\playground\global_functions\bin\Debug\global_functions.rxtmg
-D:\projects\playground\global_functions\bin\Debug\global_functions.rxtst
 D:\projects\playground\global_functions\bin\Debug\global_functions.exe.config
 D:\projects\playground\global_functions\bin\Debug\global_functions.xml
 D:\projects\playground\global_functions\bin\Debug\global_functions.exe

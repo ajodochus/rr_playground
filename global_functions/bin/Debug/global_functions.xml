@@ -68,6 +68,36 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="T:global_functions.table_handler">
+            <summary>
+            Description of table_handler.
+            </summary>
+        </member>
+        <member name="M:global_functions.table_handler.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:global_functions.table_handler.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:global_functions.uc_collection_table_handler">
+            <summary>
+            Creates a Ranorex user code collection. A collection is used to publish user code methods to the user code library.
+            </summary>
+        </member>
+        <member name="M:global_functions.uc_collection_table_handler.find_single_valud">
+            <summary>
+            This is a placeholder text. Please describe the purpose of the
+            user code method here. The method is published to the user code library
+            within a user code collection.
+            </summary>
+        </member>
         <member name="T:__RxMain.__RxProgram">
             <summary>
             Modified Program class that ensures that the Ranorex System gets initialized and cleaned up

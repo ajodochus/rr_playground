@@ -37,6 +37,9 @@
     <DefineConstants>TRACE</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Ranorex.Bootstrapper">
       <Private>False</Private>
     </Reference>
@@ -148,18 +151,6 @@
       <UserCode>true</UserCode>
       <id>ca6eef1a-2002-49b5-9e01-14f2cf5402c4</id>
     </Compile>
-    <Compile Include="get_table_content\DDT.cs">
-      <DependentUpon>DDT.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>f0ff0b48-a427-4ee6-bdbe-ebc12a369bd5</id>
-      <BoundTo>dc21deb2-5cbb-4342-abbb-6c7b8868e4d8</BoundTo>
-    </Compile>
-    <Compile Include="get_table_content\DDT.UserCode.cs">
-      <DependentUpon>DDT.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>c81b3041-86df-49b4-aa89-ca08b84d91e8</id>
-      <BoundTo>dc21deb2-5cbb-4342-abbb-6c7b8868e4d8</BoundTo>
-    </Compile>
     <Compile Include="ocr\get_strings_from_pic.cs">
       <DependentUpon>get_strings_from_pic.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
@@ -192,6 +183,51 @@
       <DependentUpon>Recording1.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>dad484bd-e76b-4e31-9782-12d22b2ccd46</id>
+    </Compile>
+    <Compile Include="table_stuff.cs">
+      <BoundTo>cf47a918-139d-4fbd-988b-8b10ec8de77e</BoundTo>
+      <DependentUpon>table_stuff.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a97c6018-7949-4acf-962f-cadd26bf1662</id>
+    </Compile>
+    <Compile Include="table_stuff.UserCode.cs">
+      <BoundTo>cf47a918-139d-4fbd-988b-8b10ec8de77e</BoundTo>
+      <DependentUpon>table_stuff.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>eb19071e-d781-46c2-a204-a4716c6fbef8</id>
+    </Compile>
+    <Compile Include="utils\table_handler.cs">
+      <id>2ae6bf56-e5a3-4084-9588-acc055f734f0</id>
+    </Compile>
+    <Compile Include="utils\xml_json_ini_etc.cs">
+      <id>86d29bce-43ef-426d-8b7d-14c25d03e661</id>
+    </Compile>
+    <Compile Include="validate_table_with_csv.cs">
+      <BoundTo>30b4c524-9fb5-432b-87a2-683a6cebc9f2</BoundTo>
+      <DependentUpon>validate_table_with_csv.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>97db833a-9de4-4cbc-a80b-573440e6bddd</id>
+    </Compile>
+    <Compile Include="validate_table_with_csv.UserCode.cs">
+      <BoundTo>30b4c524-9fb5-432b-87a2-683a6cebc9f2</BoundTo>
+      <DependentUpon>validate_table_with_csv.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fee7c523-47d3-4319-88ed-3cee59550c06</id>
+    </Compile>
+    <Compile Include="verify_with_object.cs">
+      <BoundTo>a8da8515-1c40-4812-8e3b-21e065b6cbdd</BoundTo>
+      <DependentUpon>verify_with_object.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1e094e07-fb23-47ba-a7fe-a96e79e1d144</id>
+    </Compile>
+    <Compile Include="verify_with_object.UserCode.cs">
+      <BoundTo>a8da8515-1c40-4812-8e3b-21e065b6cbdd</BoundTo>
+      <DependentUpon>verify_with_object.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d1674a5f-e970-4c78-b795-b1b8b98056b2</id>
+    </Compile>
+    <Compile Include="xml_json_ini_stuff\convert_xml_to_json.cs">
+      <id>ff5bc167-5fb2-4161-931d-6d7d8849d957</id>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -226,11 +262,6 @@
     <None Include="compare_xml\_source.xml">
       <id>512d6bb2-31da-4a72-a4e0-7aa252a6a9d6</id>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="get_table_content\DDT.rxrec">
-      <BoundTo>2c75f6c2-97dd-4d38-b991-b2e75a3d06e4</BoundTo>
-      <id>dc21deb2-5cbb-4342-abbb-6c7b8868e4d8</id>
-      <recordtableid>93ceb1c1-3439-4754-b803-5c5d88e16c16</recordtableid>
     </None>
     <None Include="ocr\data.csv">
       <id>3fd82a83-cb8e-4e6d-9cef-ba229976f22a</id>
@@ -280,6 +311,25 @@
       <id>c2e907df-1f8e-4825-a4d9-63d72a6b478f</id>
       <recordtableid>5a3bbbed-2f4a-435e-9bfb-1dc88393ebba</recordtableid>
     </None>
+    <None Include="table_stuff.rxrec">
+      <BoundTo>2c75f6c2-97dd-4d38-b991-b2e75a3d06e4</BoundTo>
+      <id>cf47a918-139d-4fbd-988b-8b10ec8de77e</id>
+      <recordtableid>ac8518c9-022b-485d-9013-4ad48096162c</recordtableid>
+    </None>
+    <None Include="validate_table_with_csv.rxrec">
+      <BoundTo>2c75f6c2-97dd-4d38-b991-b2e75a3d06e4</BoundTo>
+      <id>30b4c524-9fb5-432b-87a2-683a6cebc9f2</id>
+      <recordtableid>f41bf545-cd87-41c3-9a75-0f7e8c8b9302</recordtableid>
+    </None>
+    <None Include="validate_with_datasets\_expected_csv.csv">
+      <id>9ab5ebec-fe82-4393-a375-1d4963b872c4</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="verify_with_object.rxrec">
+      <BoundTo>2c75f6c2-97dd-4d38-b991-b2e75a3d06e4</BoundTo>
+      <id>a8da8515-1c40-4812-8e3b-21e065b6cbdd</id>
+      <recordtableid>e3d5bc98-74c6-4c0e-bdd6-2675d550802a</recordtableid>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="playground.rxtmg">
@@ -292,11 +342,17 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="get_table_content">
-      <id>ef533b1c-31a1-4957-bb03-1f262dc26b4c</id>
-    </Folder>
     <Folder Include="compare_xml">
       <id>eb7a1721-2029-4c34-8cac-f2261ed29b30</id>
+    </Folder>
+    <Folder Include="xml_json_ini_stuff">
+      <id>c6484193-1cba-4a57-863f-f70124123c7a</id>
+    </Folder>
+    <Folder Include="utils">
+      <id>4285e4a4-6b16-4c41-84a3-2db552ca36bc</id>
+    </Folder>
+    <Folder Include="validate_with_datasets">
+      <id>18d37c4b-f2cc-4d35-9c1e-b31697637f22</id>
     </Folder>
     <Folder Include="ocr">
       <id>0482db0b-dc79-4782-8d5d-7514a67a328f</id>

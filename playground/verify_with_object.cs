@@ -20,33 +20,33 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 using Ranorex.Core.Repository;
 
-namespace global_functions
+namespace playground
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The Recording1 recording.
+    ///The verify_with_object recording.
     /// </summary>
-    [TestModule("ace02951-93f3-40b0-91b3-0f28c70450ab", ModuleType.Recording, 1)]
-    public partial class Recording1 : ITestModule
+    [TestModule("e3d5bc98-74c6-4c0e-bdd6-2675d550802a", ModuleType.Recording, 1)]
+    public partial class verify_with_object : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the global_functionsRepository repository.
+        /// Holds an instance of the playgroundRepository repository.
         /// </summary>
-        public static global_functionsRepository repo = global_functionsRepository.Instance;
+        public static playgroundRepository repo = playgroundRepository.Instance;
 
-        static Recording1 instance = new Recording1();
+        static verify_with_object instance = new verify_with_object();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public Recording1()
+        public verify_with_object()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static Recording1 Instance
+        public static verify_with_object Instance
         {
             get { return instance; }
         }

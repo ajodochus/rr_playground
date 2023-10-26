@@ -43,45 +43,6 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="T:playground.get_table_content.DDT">
-             <summary>
-            The DDT recording.
-             </summary>
-        </member>
-        <member name="F:playground.get_table_content.DDT.repo">
-            <summary>
-            Holds an instance of the global::playground.playgroundRepository repository.
-            </summary>
-        </member>
-        <member name="M:playground.get_table_content.DDT.#ctor">
-            <summary>
-            Constructs a new instance.
-            </summary>
-        </member>
-        <member name="P:playground.get_table_content.DDT.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="M:playground.get_table_content.DDT.Start">
-            <summary>
-            Starts the replay of the static recording <see cref="P:playground.get_table_content.DDT.Instance"/>.
-            </summary>
-        </member>
-        <member name="M:playground.get_table_content.DDT.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this recording.
-            </summary>
-            <remarks>You should not call this method directly, instead pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
-        </member>
-        <member name="M:playground.get_table_content.DDT.Init">
-            <summary>
-            This method gets called right after the recording has been started.
-            It can be used to execute recording specific initialization code.
-            </summary>
-        </member>
         <member name="T:playground.ocr.Get_strings_from_pic">
              <summary>
             The get_strings_from_pic recording.
@@ -249,6 +210,177 @@
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.
             </summary>
+        </member>
+        <member name="T:playground.table_stuff">
+             <summary>
+            The table_stuff recording.
+             </summary>
+        </member>
+        <member name="F:playground.table_stuff.repo">
+            <summary>
+            Holds an instance of the playgroundRepository repository.
+            </summary>
+        </member>
+        <member name="M:playground.table_stuff.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:playground.table_stuff.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:playground.table_stuff.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:playground.table_stuff.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:playground.table_stuff.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:playground.table_stuff.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:playground.utils.Table_handler">
+            <summary>
+            Description of test.
+            </summary>
+        </member>
+        <member name="M:playground.utils.Table_handler.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:playground.utils.Table_handler.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:playground.utils.xml_json_ini_etc">
+            <summary>
+            Description of xml_json_ini_etc.
+            </summary>
+        </member>
+        <member name="M:playground.utils.xml_json_ini_etc.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:playground.utils.xml_json_ini_etc.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:playground.validate_table_with_csv">
+             <summary>
+            The validate_table_with_csv recording.
+             </summary>
+        </member>
+        <member name="F:playground.validate_table_with_csv.repo">
+            <summary>
+            Holds an instance of the playgroundRepository repository.
+            </summary>
+        </member>
+        <member name="M:playground.validate_table_with_csv.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:playground.validate_table_with_csv.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:playground.validate_table_with_csv.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:playground.validate_table_with_csv.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:playground.validate_table_with_csv.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:playground.validate_table_with_csv.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:playground.verify_with_object">
+             <summary>
+            The verify_with_object recording.
+             </summary>
+        </member>
+        <member name="F:playground.verify_with_object.repo">
+            <summary>
+            Holds an instance of the playgroundRepository repository.
+            </summary>
+        </member>
+        <member name="M:playground.verify_with_object.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:playground.verify_with_object.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:playground.verify_with_object.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:playground.verify_with_object.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:playground.verify_with_object.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:playground.verify_with_object.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:playground.xml_json_ini_stuff.convert_xml_to_json">
+            <summary>
+            Description of convert_xml_to_json.
+            </summary>
+        </member>
+        <member name="M:playground.xml_json_ini_stuff.convert_xml_to_json.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:playground.xml_json_ini_stuff.convert_xml_to_json.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
         </member>
         <member name="T:__RxMain.__RxProgram">
             <summary>

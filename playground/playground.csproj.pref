@@ -1,24 +1,27 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="ocr\get_strings_from_pic.UserCode.cs" />
+    <Element value="utils\xml_json_ini_etc.cs" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="playground.rxtst" />
-    <Element value="ocr\get_strings_from_pic.rxrec" />
-    <Element value="ocr\get_strings_from_pic.UserCode.cs" />
+    <Element value="compare_xml\compare_xml.rxrec" />
+    <Element value="compare_xml\compare_xml.UserCode.cs" />
+    <Element value="utils\table_handler.cs" />
+    <Element value="table_stuff.rxrec" />
+    <Element value="utils\xml_json_ini_etc.cs" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
       <runOnBuild value="False" />
     </Properties>
     <Array name="recentusercodeselections">
+      <Element value="playground.utils.test.read_tbl_into_dictionary(RepoItemInfo ItemInfo)" />
+      <Element value="playground.utils.test.read_tbl_into_dictionary(RepoItemInfo ItemInfo)" />
+      <Element value="playground.utils.test.find_single_cell_value(RepoItemInfo ItemInfo, String value_to_find)" />
+      <Element value="playground.DDT.tbl_handler(RepoItemInfo ItemInfo)" />
+      <Element value="playground.DDT.tbl_handler(Adapter ItemInfo)" />
       <Element value="Ranorex.AutomationHelpers.UserCodeCollections.PopupWatcherLibrary.StartPopupWatcher(RepoItemInfo findElement, RepoItemInfo clickElement)" />
-      <Element value="playground.Recording1.ocr_element(RepoItemInfo ItemInfo)" />
-      <Element value="playground.Recording1.start_ocr(RepoItemInfo ItemInfo)" />
-      <Element value="playground.Recording1.stop_SUT()" />
-      <Element value="playground.Recording1.start_SUT()" />
-      <Element value="playground.Recording1.start_ocr()" />
     </Array>
   </Properties>
 </Properties>

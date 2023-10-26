@@ -20,11 +20,10 @@ using Ranorex.Core;
 using Ranorex.Core.Repository;
 using Ranorex.Core.Testing;
 
-namespace playground.get_table_content
+namespace playground
 {
-    public partial class DDT
+    public partial class validate_table_with_csv
     {
-    	
         /// <summary>
         /// This method gets called right after the recording has been started.
         /// It can be used to execute recording specific initialization code.
@@ -33,25 +32,6 @@ namespace playground.get_table_content
         {
             // Your recording specific initialization code goes here.
         }
-        
-        private static void tbl_handler(RepoItemInfo ItemInfo){
-        	Dictionary<string,string> dict_table = new Dictionary<string, string>();
-        	string name = "";
-        	string number = "";
-        	
-        	Ranorex.Unknown varTableIdentifier  = ItemInfo.CreateAdapter<Ranorex.Unknown>(true);			        
-	        int rows = varTableIdentifier.Find("./Row").Count;
-	        for (int i = 1; i <= rows; i++) {
-	        	name = varTableIdentifier.FindSingle("./Row["+i+"]/Cell[2]").GetAttributeValueText("Text");
-	        	number = varTableIdentifier.FindSingle("./Row["+i+"]/Cell[3]").GetAttributeValueText("Text");
-	        	dict_table.Add(name,number);
-	        }
-	        
-	        foreach(KeyValuePair<string,string> kv in dict_table){
-	        	Ranorex.Report.Info(kv.Key +" - "+ kv.Value);
-	        }
-	        
-		}
 
     }
 }

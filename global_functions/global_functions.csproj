@@ -134,18 +134,6 @@
     <Compile Include="Program.cs">
       <id>c824f3f9-f1d6-4a12-ae45-ff356ce5162a</id>
     </Compile>
-    <Compile Include="Recording1.cs">
-      <BoundTo>3f051d1f-537a-4655-9903-0420172af211</BoundTo>
-      <DependentUpon>Recording1.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>f52c28b1-dc09-4511-b7d2-89f13611dbd8</id>
-    </Compile>
-    <Compile Include="Recording1.UserCode.cs">
-      <BoundTo>3f051d1f-537a-4655-9903-0420172af211</BoundTo>
-      <DependentUpon>Recording1.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>f514c41f-434a-414f-8a29-aa397e6d1b1b</id>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config">
@@ -162,26 +150,12 @@
       <repoid>a868c734-464c-4fd0-b1fd-6e99d961df66</repoid>
       <reporootid>b74bf6b4-3c10-49e2-8881-d7aa05332c21</reporootid>
     </None>
-    <None Include="Recording1.rxrec">
-      <BoundTo>f39fcccd-d71d-4de0-8157-98f2e37fff6d</BoundTo>
-      <id>3f051d1f-537a-4655-9903-0420172af211</id>
-      <recordtableid>ace02951-93f3-40b0-91b3-0f28c70450ab</recordtableid>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="global_functions.rxtmg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>1621130e-7355-446d-af41-92e64f233a39</id>
     </Content>
-    <Content Include="global_functions.rxtst">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <id>33b78765-6c32-441f-b960-8045ec185155</id>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="file_handling">
-      <id>2e77c4f1-274f-4c37-a1cb-8eae64dd914a</id>
-    </Folder>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />

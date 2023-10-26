@@ -5,12 +5,8 @@
   <Array name="bookmarks" />
   <Array name="files" />
   <SerializedValue name="ModuleBrowserState">
-    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
-      <string>{94CE22A2-351A-42C2-8A4B-07DDA79646EB}</string>
-      <string>0482db0b-dc79-4782-8d5d-7514a67a328f</string>
-    </ArrayOfString>
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
   </SerializedValue>
-  <ProjectBrowserState value="[Solution playground[utils[repositories_[]]playground[ocr[]]]]&#xD;&#xA;Solution playground\playground\ocr\get_strings_from_pic.rxrec&#xD;&#xA;Solution playground\utils\repositories_\Repo1.rxrep" />
+  <ProjectBrowserState value="[Solution playground[Solution Items[]playground[References[]]]]&#xD;&#xA;Solution playground\playground\utils&#xD;&#xA;Solution playground\playground\References\Ranorex.Plugin.WinForms.Core" />
   <StartupProject value="{94CE22A2-351A-42C2-8A4B-07DDA79646EB}" />
 </Properties>

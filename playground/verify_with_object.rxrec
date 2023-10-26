@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="ace02951-93f3-40b0-91b3-0f28c70450ab"
+id="e3d5bc98-74c6-4c0e-bdd6-2675d550802a"
 mode="Global">
 	<repeatcount>
 		1
@@ -19,29 +19,29 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="Recording1"
-	namespace="global_functions">
+	classname="verify_with_object"
+	namespace="playground">
 	</codegen>
 	<variables>
 	</variables>
 	<recorditems>
 	</recorditems>
 	<repository
-	id="a868c734-464c-4fd0-b1fd-6e99d961df66"
-	name="global_functionsRepository"
-	relativepath="global_functionsRepository.rxrep">
+	id="a6915d7d-ce87-47ea-94e9-dbcdb462e8d2"
+	name="playgroundRepository"
+	relativepath="playgroundRepository.rxrep">
 		<codegen
-		classname="global_functionsRepository"
-		namespace="global_functions">
+		classname="playgroundRepository"
+		namespace="playground">
 		</codegen>
 		<rootfolder
-		id="b74bf6b4-3c10-49e2-8881-d7aa05332c21"
+		id="ad0f3130-4cce-4bde-bc8e-05bc0c06e04f"
 		name="_rootdummy_">
 		</rootfolder>
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		Recording1.UserCode.cs
+		verify_with_object.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

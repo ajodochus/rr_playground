@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="f41bf545-cd87-41c3-9a75-0f7e8c8b9302"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="validate_table_with_csv"
+	namespace="playground">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="084f3773-f2bb-4674-bec6-36d836d36896">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b583f854-fe23-43ea-8565-d157b68314cc"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@controlname='Form1']/table[@controlname='mydg']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				dfdf
+			</matchname>
+			<matchvalue>
+				yourValue
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="a6915d7d-ce87-47ea-94e9-dbcdb462e8d2"
+	name="playgroundRepository"
+	relativepath="playgroundRepository.rxrep">
+		<codegen
+		classname="playgroundRepository"
+		namespace="playground">
+		</codegen>
+		<rootfolder
+		id="ad0f3130-4cce-4bde-bc8e-05bc0c06e04f"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		validate_table_with_csv.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

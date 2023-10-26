@@ -20,33 +20,33 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 using Ranorex.Core.Repository;
 
-namespace playground.get_table_content
+namespace playground
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The DDT recording.
+    ///The validate_table_with_csv recording.
     /// </summary>
-    [TestModule("93ceb1c1-3439-4754-b803-5c5d88e16c16", ModuleType.Recording, 1)]
-    public partial class DDT : ITestModule
+    [TestModule("f41bf545-cd87-41c3-9a75-0f7e8c8b9302", ModuleType.Recording, 1)]
+    public partial class validate_table_with_csv : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the global::playground.playgroundRepository repository.
+        /// Holds an instance of the playgroundRepository repository.
         /// </summary>
-        public static global::playground.playgroundRepository repo = global::playground.playgroundRepository.Instance;
+        public static playgroundRepository repo = playgroundRepository.Instance;
 
-        static DDT instance = new DDT();
+        static validate_table_with_csv instance = new validate_table_with_csv();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public DDT()
+        public validate_table_with_csv()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static DDT Instance
+        public static validate_table_with_csv Instance
         {
             get { return instance; }
         }
@@ -79,7 +79,8 @@ namespace playground.get_table_content
 
             Init();
 
-            tbl_handler(repo.Form1.table_dataInfo);
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (dfdf='yourValue') on item 'Form1.table_data'.", repo.Form1.table_dataInfo, new RecordItemIndex(0));
+            Validate.AttributeEqual(repo.Form1.table_dataInfo, "dfdf", "yourValue");
             Delay.Milliseconds(0);
             
         }

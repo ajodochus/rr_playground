@@ -29,3 +29,5 @@ D:\projects\playground\playground\bin\Debug\XmlDiffLib.dll
 D:\projects\playground\playground\bin\Debug\xmlunit-core.dll
 D:\projects\playground\playground\bin\Debug\xunit.dll
 D:\projects\playground\playground\bin\Debug\xunit.xml
+D:\projects\playground\playground\bin\Debug\validate_with_datasets\_expected_csv.csv
+D:\projects\playground\playground\bin\Debug\Newtonsoft.Json.dll

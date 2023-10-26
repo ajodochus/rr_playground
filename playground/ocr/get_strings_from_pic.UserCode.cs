@@ -80,12 +80,12 @@ namespace playground.ocr
    		
    		public static void get_string_from_ocr(){
         	Dictionary<string, string> result_dict = new Dictionary<string, string>();
-        	List<string> TIME_TYPES = new List<string>();
-        	TIME_TYPES.Add("type 1");
-        	TIME_TYPES.Add("type 2");
-        	TIME_TYPES.Add("type 3");
-        	TIME_TYPES.Add("type 4");
-        	TIME_TYPES.Add("type 5");
+        	List<string> TIME_FORMATS = new List<string>();
+        	TIME_FORMATS.Add("1st row");
+        	TIME_FORMATS.Add("2nd row");
+        	TIME_FORMATS.Add("3rd row");
+        	TIME_FORMATS.Add("5th row");
+        	TIME_FORMATS.Add("6th row");
         	
         	int count = 0;
         	
@@ -105,13 +105,13 @@ namespace playground.ocr
 				if (!standard_output.IsEmpty()){
 					
 					//Ranorex.Report.Info("aaa" + ((++count).ToString()));
-					result_dict.Add(TIME_TYPES[count], standard_output);
+					result_dict.Add(TIME_FORMATS[count], standard_output);
 					count++;
 				}
 			 }
 			
 			process.WaitForExit();
-			Ranorex.Report.Info(result_dict["type 2"]);
+			Ranorex.Report.Info(result_dict["2nd row"]);
 			
 //			foreach(KeyValuePair<string, string> ele2 in result_dict)
 //	          {

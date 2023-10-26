@@ -20,9 +20,9 @@ using Ranorex.Core;
 using Ranorex.Core.Repository;
 using Ranorex.Core.Testing;
 
-namespace global_functions
+namespace playground
 {
-    public partial class Recording1
+    public partial class verify_with_object
     {
         /// <summary>
         /// This method gets called right after the recording has been started.
@@ -30,7 +30,12 @@ namespace global_functions
         /// </summary>
         private void Init()
         {
-            // Your recording specific initialization code goes here.
+        	var curTC = TestSuite.CurrentTestContainer; //current TestCase/SmartFolder  
+			//var curTC = TestSuite.Current.GetTestContainer("ContainerName"); //ContainerName = TestCase/SmartFolder name  
+			var valFromCurRowAndGivenColumn = curTC.DataContext.CurrentRow.Values[curTC.DataContext.Source.Columns["name"].Index]; //returns value from current data connector row and given column
+			Ranorex.Report.Info("name: " + valFromCurRowAndGivenColumn);
+			
+			var DC = curTC.DataContext.EffectiveRow.Values;
         }
 
     }
